@@ -49,9 +49,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StormMenu" />
-        <activity android:name=".MedicalMenu" />
-        <activity android:name=".SecurityMenu"></activity>
+        <activity
+            android:name=".StormMenu"
+            android:label="@string/title_storm_menu" />
+        <activity
+            android:name=".MedicalMenu"
+            android:label="@string/title_medical_menu" />
+        <activity
+            android:name=".SecurityMenu"
+            android:label="@string/title_security_menu" />
+        <activity
+            android:name=".FireHotlines"
+            android:label="@string/title_fire_hotlines" />
+        <activity android:name=".FireGuidelines"
+            android:label="@string/title_fire_guidelines"/>
+        <activity android:name=".FireFirstAid"
+            android:label="@string/title_fire_firstaid"></activity>
     </application>
 
 </manifest>

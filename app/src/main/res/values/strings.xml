@@ -3,4 +3,10 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_menu">Main Menu</string>
     <string name="title_fire_menu">Fire Emergency</string>
+    <string name="title_storm_menu">Storm Emergency</string>
+    <string name="title_medical_menu">Medical Emergency</string>
+    <string name="title_security_menu">Security Emergency</string>
+    <string name="title_fire_hotlines">Emergency Hotlines</string>
+    <string name="title_fire_guidelines">Fire Emergency Guidelines</string>
+    <string name="title_fire_firstaid">Fire First Aid</string>
 </resources>
