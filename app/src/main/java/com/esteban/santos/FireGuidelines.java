@@ -17,7 +17,7 @@ public class FireGuidelines extends AppCompatActivity {
         setContentView(R.layout.activity_fire_guidelines);
 
         VideoView videoView = findViewById(R.id.videoView2);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.firstaidfire;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.guidelinesfire;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
         videoView.start();
