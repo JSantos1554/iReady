@@ -23,16 +23,16 @@
             style="@style/Border"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1.2">
+            android:layout_weight="1.7">
 
             <android.support.constraint.ConstraintLayout
-                android:layout_width="142dp"
+                android:layout_width="128dp"
                 android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imgHotlines"
-                    android:layout_width="170dp"
-                    android:layout_height="90dp"
+                    android:layout_width="169dp"
+                    android:layout_height="52dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
@@ -42,7 +42,6 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.478"
                     app:srcCompat="@drawable/firstaid" />
 
             </android.support.constraint.ConstraintLayout>
@@ -54,7 +53,7 @@
                 <TextView
                     android:id="@+id/txtHotlines"
                     style="@style/CustomHeader"
-                    android:layout_width="199dp"
+                    android:layout_width="169dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
@@ -62,6 +61,7 @@
                     android:layout_marginTop="8dp"
                     android:gravity="center"
                     android:text="FIRST AID FOR FIRE INJURIES"
+                    android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -76,7 +76,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1.2">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/Border"
@@ -93,21 +93,18 @@
 
                     <android.support.constraint.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="203dp">
+                        android:layout_height="match_parent">
 
                         <VideoView
-                            android:id="@+id/videoView"
-                            android:layout_width="wrap_content"
-                            android:layout_height="0dp"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginEnd="20dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="10dp"
+                            android:id="@+id/videoView2"
+                            android:layout_width="0dp"
+                            android:layout_height="166dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.0" />
+                            app:layout_constraintTop_toTopOf="parent" />
                     </android.support.constraint.ConstraintLayout>
 
                 </LinearLayout>
@@ -120,7 +117,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="0.95">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 style="@style/Border"
@@ -159,14 +156,15 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 tools:layout_editor_absoluteY="1dp" />
 
-                            <ImageView
+                            <!--<ImageView
                                 android:id="@+id/imageView4"
+                                style="@style/Border"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="8dp"
                                 android:adjustViewBounds="true"
                                 android:scaleType="fitStart"
-                                app:srcCompat="@drawable/burns" />
+                                app:srcCompat="@drawable/burns" /> -->
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -193,6 +191,35 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/img1st"
+                                        android:layout_width="73dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="10dp"
+                                        android:adjustViewBounds="true"
+                                        android:background="@null"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/first" />
+
+                                    <TextView
+                                        android:id="@+id/firstdesc"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="8dp"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text='"First-degree burns cause minimal skin damage and they affect the outermost layer of skin.first-degree burns are red, nonblistered skin."'
+                                        android:textSize="15sp"
+                                        android:textStyle="bold|italic" />
+
+                                </LinearLayout>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -239,6 +266,7 @@
                                         android:text="Do not apply ointments, toothpaste or butter to the burn, as these may cause an infection. Do not apply topical antibiotics."
                                         android:textStyle="bold" />
                                 </LinearLayout>
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -258,9 +286,10 @@
                                         android:layout_height="wrap_content"
                                         android:layout_marginRight="8dp"
                                         android:layout_weight="1"
-                                        android:text="Cover the burn with a nonstick, sterile bandage. If blisters form, let them heal on their own while keeping the area covered. Do not pop the blisters."
+                                        android:text="Cover the burn with a nonstick, sterile bandage. Let them heal on their own while keeping the area covered."
                                         android:textStyle="bold" />
                                 </LinearLayout>
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -286,9 +315,393 @@
 
                             </LinearLayout>
 
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView21"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_weight="1"
+                                    android:text="B. SECOND DEGREE BURN"
+                                    android:textColor="#b02424"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="119dp"
+                                    tools:layout_editor_absoluteY="360dp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/img2st"
+                                        android:layout_width="73dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="10dp"
+                                        android:adjustViewBounds="true"
+                                        android:background="@null"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/second" />
+
+                                    <TextView
+                                        android:id="@+id/seconddesc"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="8dp"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text='"Second-degree burns are more serious because the damage extends beyond the top layer of skin. This type burn causes the skin to blister and become extremely red and sore."'
+                                        android:textSize="15sp"
+                                        android:textStyle="bold|italic" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView22"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/a" />
+
+                                    <TextView
+                                        android:id="@+id/textView23"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text=" Flush the burn with cool running water or apply cold moist cloths until the pain lessens."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView24"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aa" />
+
+                                    <TextView
+                                        android:id="@+id/textView25"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Do not break the blisters. If the blisters break, the exposed skin can become infected."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView26"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView27"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Do not use ice or ice water, which can cause more damage to the skin.Do not put ointments, grease, petroleum jelly, butter, or home remedies on the burn. These substances can hold the heat in, making the burn worse."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView28"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aaaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView29"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text=" Cover the burn with a clean (sterile, if possible), dry, nonfluffy bandage such as a gauze pad."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView30"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aaaaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView31"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Consider taking over-the-counter pain medication. Acetaminophen or ibuprofen can help relieve the pain and reduce inflammation. "
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView32"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/caution" />
+
+                                    <TextView
+                                        android:id="@+id/textView33"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Get medical attention immediately if the burned area is greater than one percent of the body, located on the groin, over a joint or on the face."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_weight="1"
+                                    android:text="C. THIRD DEGREE BURN"
+                                    android:textColor="#b02424"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="119dp"
+                                    tools:layout_editor_absoluteY="360dp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/img3st"
+                                        android:layout_width="73dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="10dp"
+                                        android:adjustViewBounds="true"
+                                        android:background="@null"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/third" />
+
+                                    <TextView
+                                        android:id="@+id/thirddesc"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="8dp"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text='"Third-degree burns are the most severe among the three. They cause the most damage, extending through every layer of skin.They result in white or blackened, charred skin that may be numb"'
+                                        android:textSize="15sp"
+                                        android:textStyle="bold|italic" />
+
+                                </LinearLayout>
 
 
-                        </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView10"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/a" />
+
+                                    <TextView
+                                        android:id="@+id/textView17"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Remove any tight clothing or jewelry that's not on the actual burned area. With third-degree burns, there's always the danger of swelling which can cause blood vessels to constrict and create other complications."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView34"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aa" />
+
+                                    <TextView
+                                        android:id="@+id/textView35"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Evaluate the person for breathing and a pulse."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView11"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView19"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="You can submerge the burned area under cool running water, but avoid ice. Too much cold can exacerbate shock."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView12"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/aaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView20"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_weight="1"
+                                        android:text="Pat the area dry and place a loose, sterile cloth over the area."
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView33"
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    app:srcCompat="@drawable/aaaa" />
+
+                                <TextView
+                                    android:id="@+id/textView34"
+                                    android:layout_width="327dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_weight="1"
+                                    android:text="Elevate the burned area, keeping them higher than the heart to keep blood flowing smoothly. "
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView13"
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    app:srcCompat="@drawable/aaaaa" />
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="327dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_weight="1"
+                                    android:text="Call for medical emergency and get the burned victim to a hospital for immediate medical attention"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            </LinearLayout>
+
                     </ScrollView>
 
                 </LinearLayout>
