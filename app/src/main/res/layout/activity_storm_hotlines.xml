@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".FireHotlines">
-
+    tools:context=".StormHotlines">
     <LinearLayout
         android:id="@+id/linearLayout"
         style="@style/Border"
@@ -325,12 +324,12 @@
                         <TextView
                             android:id="@+id/textView6"
                             android:layout_width="338dp"
-                            android:layout_height="38dp"
+                            android:layout_height="65dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
-                            android:layout_marginTop="24dp"
+                            android:layout_marginTop="16dp"
                             android:gravity="center"
-                            android:text="BUREAU OF FIRE PROTECTION (NCR)"
+                            android:text="PHILIPPINE ATMOSPHERIC, GEOPHYSICAL AND ASTRONOMICAL SERVICES ADMINISTRATION (PAGASA) HOTLINE"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -344,7 +343,7 @@
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="8dp"
-                            android:text=" (02) 426-0219"
+                            android:text="(632) 4342696"
                             android:textColor="@android:color/holo_red_dark"
                             android:textSize="20sp"
                             android:textStyle="bold"

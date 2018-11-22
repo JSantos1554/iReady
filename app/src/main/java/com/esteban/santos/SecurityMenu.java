@@ -1,7 +1,9 @@
 package com.esteban.santos;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class SecurityMenu extends AppCompatActivity {
 
@@ -10,4 +12,5 @@ public class SecurityMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_security_menu);
     }
+
 }

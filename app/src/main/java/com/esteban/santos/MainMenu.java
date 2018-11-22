@@ -21,12 +21,9 @@ public class MainMenu extends AppCompatActivity {
         if (v.getId() == R.id.mapbtn) {
             i = new Intent(this, MapsActivity.class);
             startActivity(i);
-
         } else if (v.getId() == R.id.firebtn) {
             i = new Intent(this, FireMenu.class);
             startActivity(i);
-
-
         } else if (v.getId() == R.id.stormbtn) {
             i = new Intent(this, StormMenu.class);
             startActivity(i);

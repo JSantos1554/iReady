@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".FireFirstAid"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context=".StormFirstAid">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -53,14 +52,14 @@
                 <TextView
                     android:id="@+id/txtHotlines"
                     style="@style/CustomHeader"
-                    android:layout_width="169dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:text="FIRST AID FOR FIRE INJURIES"
+                    android:text="FIRST AID FOR STORM INJURIES"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -149,7 +148,7 @@
                                 android:layout_marginEnd="8dp"
                                 android:layout_marginStart="8dp"
                                 android:gravity="center"
-                                android:text="HOW TO TREAT BURNS"
+                                android:text="HOW TO TREAT STORM INJURIES"
                                 android:textSize="20sp"
                                 android:textStyle="bold"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -163,8 +162,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="8dp"
                                 android:adjustViewBounds="true"
-                                android:scaleType="fitStart"
-                                app:srcCompat="@drawable/burns" />
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@drawable/stormfirstaid" />
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -488,17 +487,21 @@
                                     android:layout_marginBottom="5dp"
                                     android:orientation="horizontal">
 
+                                    <ImageView
+                                        android:id="@+id/imageView32"
+                                        android:layout_width="56dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        app:srcCompat="@drawable/caution" />
+
                                     <TextView
                                         android:id="@+id/textView33"
                                         android:layout_width="327dp"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginLeft="8dp"
                                         android:layout_marginRight="8dp"
                                         android:layout_weight="1"
-                                        android:gravity="center"
                                         android:text="Get medical attention immediately if the burned area is greater than one percent of the body, located on the groin, over a joint or on the face."
-                                        android:textColor="#ff7d81"
-                                        android:textStyle="bold|italic" />
+                                        android:textStyle="bold" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -696,7 +699,7 @@
                                     android:textStyle="bold" />
                             </LinearLayout>
 
-                            </LinearLayout>
+                        </LinearLayout>
 
                     </ScrollView>
 

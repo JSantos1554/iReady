@@ -61,10 +61,15 @@
         <activity
             android:name=".FireHotlines"
             android:label="@string/title_fire_hotlines" />
-        <activity android:name=".FireGuidelines"
-            android:label="@string/title_fire_guidelines"/>
-        <activity android:name=".FireFirstAid"
-            android:label="@string/title_fire_firstaid"></activity>
+        <activity
+            android:name=".FireGuidelines"
+            android:label="@string/title_fire_guidelines" />
+        <activity
+            android:name=".FireFirstAid"
+            android:label="@string/title_fire_firstaid" />
+        <activity android:name=".StormHotlines" />
+        <activity android:name=".StormGuidelines" />
+        <activity android:name=".StormFirstAid"></activity>
     </application>
 
 </manifest>
