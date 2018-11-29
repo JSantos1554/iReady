@@ -1,10 +1,8 @@
 package com.esteban.santos;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 
 public class MainMenu extends AppCompatActivity {
@@ -24,13 +22,13 @@ public class MainMenu extends AppCompatActivity {
         } else if (v.getId() == R.id.firebtn) {
             i = new Intent(this, FireMenu.class);
             startActivity(i);
-        } else if (v.getId() == R.id.stormbtn) {
+        } else if (v.getId() == R.id.hotlinesbtn) {
             i = new Intent(this, StormMenu.class);
             startActivity(i);
-        } else if (v.getId() == R.id.medicalbtn) {
+        } else if (v.getId() == R.id.heatstrokebtn) {
             i = new Intent(this, MedicalMenu.class);
             startActivity(i);
-        } else if (v.getId() == R.id.securitybtn) {
+        } else if (v.getId() == R.id.foodpoisonbtn) {
             i = new Intent(this, SecurityMenu.class);
             startActivity(i);
         }

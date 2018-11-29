@@ -69,7 +69,13 @@
             android:label="@string/title_fire_firstaid" />
         <activity android:name=".StormHotlines" />
         <activity android:name=".StormGuidelines" />
-        <activity android:name=".StormFirstAid"></activity>
+        <activity android:name=".StormFirstAid" />
+        <activity android:name=".MedicalFirstaid" />
+        <activity android:name=".MedicalHotlines" />
+        <activity android:name=".MedicalHeatstroke" />
+        <activity android:name=".MedicalHeartattack" />
+        <activity android:name=".MedicalDengue" />
+        <activity android:name=".MedicalFoodpoison"></activity>
     </application>
 
 </manifest>
