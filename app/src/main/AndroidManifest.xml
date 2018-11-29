@@ -75,7 +75,15 @@
         <activity android:name=".MedicalHeatstroke" />
         <activity android:name=".MedicalHeartattack" />
         <activity android:name=".MedicalDengue" />
-        <activity android:name=".MedicalFoodpoison"></activity>
+        <activity android:name=".MedicalFoodpoison" />
+        <activity android:name=".MedicalDengueGuidelines" />
+        <activity android:name=".MedicalDengueFirstaid" />
+        <activity android:name=".MedicalHeatstrokeFirstaid" />
+        <activity android:name=".MedicalHeatstrokeGuidelines" />
+        <activity android:name=".MedicalHeartattackFirstaid" />
+        <activity android:name=".MedicalHeartattackGuidelines" />
+        <activity android:name=".MedicalFoodpoisonFirstAid" />
+        <activity android:name=".MedicalFoodpoisonGuidelines"></activity>
     </application>
 
 </manifest>

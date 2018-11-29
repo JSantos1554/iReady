@@ -25,10 +25,12 @@
             android:layout_weight="1">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/firstaid"
                 style="@style/Border"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="process"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -48,6 +50,7 @@
                             android:layout_marginTop="16dp"
                             android:adjustViewBounds="true"
                             android:background="@null"
+                            android:onClick="process"
                             android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -87,8 +90,10 @@
 
 
                 <LinearLayout
+                    android:id="@+id/hotlines"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:onClick="process"
                     android:orientation="vertical">
 
                     <android.support.constraint.ConstraintLayout
@@ -103,6 +108,7 @@
                             android:layout_marginTop="16dp"
                             android:adjustViewBounds="true"
                             android:background="@null"
+                            android:onClick="process"
                             android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -142,10 +148,12 @@
             android:layout_weight="1">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/heatstroke"
                 style="@style/Border"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="process"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -165,6 +173,7 @@
                             android:layout_marginTop="16dp"
                             android:adjustViewBounds="true"
                             android:background="@null"
+                            android:onClick="process"
                             android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -197,10 +206,12 @@
             </LinearLayout>
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/heartattack"
                 style="@style/Border"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="process"
                 android:orientation="horizontal">
 
 
@@ -221,6 +232,7 @@
                             android:layout_marginTop="16dp"
                             android:adjustViewBounds="true"
                             android:background="@null"
+                            android:onClick="process"
                             android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -258,10 +270,12 @@
             android:layout_weight="1">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dengue"
                 style="@style/Border"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="process"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -281,6 +295,7 @@
                             android:layout_marginTop="16dp"
                             android:adjustViewBounds="true"
                             android:background="@null"
+                            android:onClick="process"
                             android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -321,8 +336,10 @@
 
 
                 <LinearLayout
+                    android:id="@+id/poison"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:onClick="process"
                     android:orientation="vertical">
 
                     <android.support.constraint.ConstraintLayout
@@ -337,6 +354,7 @@
                             android:layout_marginTop="16dp"
                             android:adjustViewBounds="true"
                             android:background="@null"
+                            android:onClick="process"
                             android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
