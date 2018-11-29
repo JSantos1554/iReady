@@ -51,6 +51,9 @@ public class MedicalMenu extends AppCompatActivity {
         }  else if (v.getId() == R.id.firstaidbtn) {
             i = new Intent(this, MedicalFirstaid.class);
             startActivity(i);
+        } else if (v.getId() == R.id.backbtn) {
+            i = new Intent(this, MainMenu.class);
+            startActivity(i);
         }
 
     }

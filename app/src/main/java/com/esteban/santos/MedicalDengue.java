@@ -16,10 +16,13 @@ public class MedicalDengue extends AppCompatActivity {
         Intent i = null, chooser = null;
 
         if (v.getId() == R.id.guidelines) {
-            i = new Intent(this, MedicalFirstaid.class);
+            i = new Intent(this, MedicalDengueGuidelines.class);
             startActivity(i);
         } else if (v.getId() == R.id.firstaid) {
-            i = new Intent(this, MedicalHotlines.class);
+            i = new Intent(this, MedicalDengueFirstaid.class);
+            startActivity(i);
+        }else if (v.getId() == R.id.backbtn) {
+            i = new Intent(this, MedicalMenu.class);
             startActivity(i);
         }
     }
