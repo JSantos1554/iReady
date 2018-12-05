@@ -9,164 +9,771 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
+        style="@style/Border"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="153dp"
-        android:layout_marginTop="42dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            style="@style/Border"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="10dp"
-            android:layout_weight="1">
+            android:layout_weight="1.7">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgHotlines"
+                    android:layout_width="169dp"
+                    android:layout_height="58dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/poisonousmeal" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtHotlines"
+                    style="@style/CustomHeader"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="FOOD POISON"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:id="@+id/guidelines"
                 style="@style/Border"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1.5"
-                android:onClick="process"
+                android:layout_weight="0.5"
                 android:orientation="horizontal">
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#80fff2cc"
-                    android:orientation="horizontal">
-
+                    android:orientation="vertical">
 
                     <android.support.constraint.ConstraintLayout
-                        android:layout_width="140dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <ImageView
-                            android:id="@+id/imgGuidelines"
-                            android:layout_width="150dp"
-                            android:layout_height="108dp"
+                        <VideoView
+                            android:id="@+id/videoView2"
+                            android:layout_width="0dp"
+                            android:layout_height="166dp"
                             android:layout_marginBottom="8dp"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginStart="8dp"
                             android:layout_marginTop="8dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/guidelines" />
-
-                    </android.support.constraint.ConstraintLayout>
-
-                    <android.support.constraint.ConstraintLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent">
-
-                        <TextView
-                            android:id="@+id/txtGuidelines"
-                            style="@style/CustomHeader"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginStart="8dp"
-                            android:layout_marginTop="8dp"
-                            android:text="GUIDELINES"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
                     </android.support.constraint.ConstraintLayout>
+
                 </LinearLayout>
+
+
             </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
-            style="@style/Border"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:layout_weight="0.95">
 
-
-            <LinearLayout
-                android:id="@+id/firstaid"
-                android:layout_width="match_parent"
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/Border"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:background="#80fff2cc"
-                android:onClick="process"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <android.support.constraint.ConstraintLayout
-                    android:layout_width="140dp"
-                    android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/imgFirstAid"
-                        android:layout_width="150dp"
-                        android:layout_height="108dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:alpha="1"
-                        android:background="@null"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/firstaid" />
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-                </android.support.constraint.ConstraintLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                <android.support.constraint.ConstraintLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent">
+                            <LinearLayout
+                                style="@style/Border"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.7">
 
-                    <TextView
-                        android:id="@+id/textView3"
-                        style="@style/CustomHeader"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:text="FIRST AID"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-                </android.support.constraint.ConstraintLayout>
+                                <android.support.constraint.ConstraintLayout
+                                    android:layout_width="124dp"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imgGuidelines"
+                                        android:layout_width="169dp"
+                                        android:layout_height="58dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="8dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.0"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/guidelines" />
+
+                                </android.support.constraint.ConstraintLayout>
+
+                                <android.support.constraint.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/txtGuidelines"
+                                        style="@style/CustomHeader"
+                                        android:layout_width="183dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="8dp"
+                                        android:gravity="center"
+                                        android:text="GUIDELINES FOR FOOD POISON"
+                                        android:textSize="20sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.5"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </android.support.constraint.ConstraintLayout>
+
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                style="@style/Border"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitStart"
+                                app:srcCompat="@drawable/foodpoisonpic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_weight="1"
+                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:textColor="#b02424"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="119dp"
+                                    tools:layout_editor_absoluteY="360dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView6"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/race" />
+
+                                    <TextView
+                                        android:id="@+id/textView13"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Remove anyone from immediate danger."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView7"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/racee" />
+
+                                    <TextView
+                                        android:id="@+id/textView14"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text=" Activate the building fire alarm system and call 911."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView8"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/raceee" />
+
+                                    <TextView
+                                        android:id="@+id/textView15"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Confine the fire by closing all windows and doors."
+                                        android:textStyle="bold"
+                                        android:textSize="16sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView9"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/raceeee" />
+
+                                    <TextView
+                                        android:id="@+id/textView16"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Evacuate, leave the building."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_weight="1"
+                                    android:text="B. Important reminders during a fire emergency"
+                                    android:textColor="#b02424"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="119dp"
+                                    tools:layout_editor_absoluteY="360dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView17"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView18"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Crawl If There’s Smoke"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView19"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView20"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text=" Feel Doors Before Opening"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView21"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView22"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Go To The Nearest Exit"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView23"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView24"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Always Use An Exit Stair, Not An Elevator"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView27"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView28"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Use a fire extinguisher if the fire is very small and you know how to use it safely"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView29"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView30"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="If you are on fire – Stop, Drop and Roll"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView25"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView26"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="40dp"
+                                        android:layout_weight="1"
+                                        android:text="If You Get Trapped, close the door and open the windows if safe.Signal for help and phone 911. Don't panic nor jump and wait for the fire department to rescue you."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/Border"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.7">
+
+                                <android.support.constraint.ConstraintLayout
+                                    android:layout_width="124dp"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imgFirstAid"
+                                        android:layout_width="169dp"
+                                        android:layout_height="58dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="8dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.0"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/firstaid" />
+
+                                </android.support.constraint.ConstraintLayout>
+
+                                <android.support.constraint.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/txtFirstAid"
+                                        style="@style/CustomHeader"
+                                        android:layout_width="183dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="8dp"
+                                        android:gravity="center"
+                                        android:text="FIRST AID FOR FOOD POISON"
+                                        android:textSize="20sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.5"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </android.support.constraint.ConstraintLayout>
+
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/imageView4a"
+                                style="@style/Border"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitStart"
+                                app:srcCompat="@drawable/foodpoisonpic" />
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12a"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_weight="1"
+                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:textColor="#b02424"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="119dp"
+                                    tools:layout_editor_absoluteY="360dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView6a"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/race" />
+
+                                    <TextView
+                                        android:id="@+id/textView13a"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Remove anyone from immediate danger."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView7a"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/racee" />
+
+                                    <TextView
+                                        android:id="@+id/textView14a"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text=" Activate the building fire alarm system and call 911."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView8a"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/raceee" />
+
+                                    <TextView
+                                        android:id="@+id/textView15a"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Confine the fire by closing all windows and doors."
+                                        android:textStyle="bold"
+                                        android:textSize="16sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView9a"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/raceeee" />
+
+                                    <TextView
+                                        android:id="@+id/textView16a"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Evacuate, leave the building."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
-
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout2"
         style="@style/Border"
         android:layout_width="0dp"
         android:layout_height="43dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <Button
-
             android:id="@+id/backbtn"
-            style="@style/Border"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.9"
