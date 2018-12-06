@@ -76,6 +76,10 @@
         <activity android:name=".MedicalHeartattack" />
         <activity android:name=".MedicalDengue" />
         <activity android:name=".MedicalFoodpoison" />
+        <activity android:name=".SecurityHotlines" />
+        <activity android:name=".SecurityGuidelines" />
+        <activity android:name=".SecurityEmergencyAlarm" />
+        <activity android:name=".SecurityEmergencyAlarmp2"></activity>
     </application>
 
 </manifest>
