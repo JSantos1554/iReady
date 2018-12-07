@@ -78,7 +78,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="BtnNat_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -92,7 +93,7 @@
                         <TextView
                             android:id="@+id/textView"
                             android:layout_width="170dp"
-                            android:layout_height="47dp"
+                            android:layout_height="0dp"
                             android:layout_marginBottom="13dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
@@ -133,8 +134,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:onClick="BtnNationalDis_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -147,11 +148,9 @@
 
                         <TextView
                             android:id="@+id/textViewww"
-                            android:layout_width="163dp"
-                            android:layout_height="88dp"
+                            android:layout_width="173dp"
+                            android:layout_height="0dp"
                             android:layout_marginEnd="8dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="4dp"
                             android:gravity="center"
@@ -160,6 +159,7 @@
                             android:textStyle="bold"
                             app:layout_constraintBottom_toTopOf="@+id/textView3"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -199,7 +199,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="BtnPCG_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -251,8 +252,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:onClick="BtnPRC_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -266,7 +267,7 @@
                         <TextView
                             android:id="@+id/textView4"
                             android:layout_width="170dp"
-                            android:layout_height="50dp"
+                            android:layout_height="38dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="24dp"
@@ -311,7 +312,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="BtnPAG_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -325,13 +327,13 @@
                         <TextView
                             android:id="@+id/textView6"
                             android:layout_width="338dp"
-                            android:layout_height="71dp"
+                            android:layout_height="65dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
-                            android:layout_marginTop="4dp"
+                            android:layout_marginTop="16dp"
                             android:gravity="center"
-                            android:text="PHILIPPINE ATMOSPHERIC, GEOPHYSICAL AND ASTRONOMICAL SERVICES ADMINISTRATION (PAGASA) "
-                            android:textSize="16sp"
+                            android:text="PHILIPPINE ATMOSPHERIC, GEOPHYSICAL AND ASTRONOMICAL SERVICES ADMINISTRATION (PAGASA) HOTLINE"
+                            android:textSize="18sp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"

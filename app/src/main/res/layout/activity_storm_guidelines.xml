@@ -147,7 +147,7 @@
                                 android:layout_marginEnd="8dp"
                                 android:layout_marginStart="8dp"
                                 android:gravity="center"
-                                android:text="WHAT TO DO DURING A STORM EMERGENCY"
+                                android:text="WHAT TO DO DURING A STORM"
                                 android:textSize="20sp"
                                 android:textStyle="bold"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -175,7 +175,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:text="A. BEFORE THE STORM"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -202,7 +202,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/race" />
+                                        app:srcCompat="@drawable/a" />
 
                                     <TextView
                                         android:id="@+id/textView13"
@@ -211,7 +211,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Remove anyone from immediate danger."
+                                        android:text="Monitor the news or your local weather station for updates on the storm situation, when it will hit and how strong it will be."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -228,7 +228,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/racee" />
+                                        app:srcCompat="@drawable/aa" />
 
                                     <TextView
                                         android:id="@+id/textView14"
@@ -237,7 +237,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Activate the building fire alarm system and call 911."
+                                        android:text="Move to higher ground. Move away from creeks, streams, rivers, and storm drains. Flash floods can sweep over an area without warning, and you may only have minutes to get to safety. Note that flash floods can occur up to 12 hours after heavy rains. "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -254,7 +254,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceee" />
+                                        app:srcCompat="@drawable/aaa" />
 
                                     <TextView
                                         android:id="@+id/textView15"
@@ -263,9 +263,9 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Confine the fire by closing all windows and doors."
-                                        android:textStyle="bold"
-                                        android:textSize="16sp" />
+                                        android:text="Stock up on supplies. Fill up clean plastic bottles with clean water and store as much water as you can, especially if you live in a flood-prone area. Immediately charge all essential electronics like cellular phones, which you will have to use in case of emergencies."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -280,7 +280,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceeee" />
+                                        app:srcCompat="@drawable/aaaa" />
 
                                     <TextView
                                         android:id="@+id/textView16"
@@ -289,10 +289,36 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Evacuate, leave the building."
+                                        android:text="Prepare your escape routes. Practice what you will do in case of flood. Map out safe routes where you can get from your office to your work. Coordinate with your neighbors, in case of extreme floods. Figure out how you can get from your location to safer ground. "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView9a"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/aaaaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView16a"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Keep note of emergency hotlines in your area."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
 
                             </LinearLayout>
 
@@ -308,7 +334,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="B. Important reminders during a fire emergency"
+                                    android:text="B. DURING THE STORM"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -331,12 +357,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView17"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/a" />
 
                                     <TextView
                                         android:id="@+id/textView18"
@@ -345,7 +371,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Crawl If There’s Smoke"
+                                        android:text="Keep your radios tuned to a local radio station and follow all instructions. If you are told to evacuate, move out of the house or building to safe, high ground."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -358,12 +384,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView19"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/aa" />
 
                                     <TextView
                                         android:id="@+id/textView20"
@@ -372,7 +398,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Feel Doors Before Opening"
+                                        android:text="Turn off all electricity using your breaker box (main power switch) and turn off the main gas valve. Disconnect any equipment that uses water (like washing machines and dishwashers). Avoid burning candles for light, and never leave fires unattended."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -385,12 +411,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView21"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/aaa" />
 
                                     <TextView
                                         android:id="@+id/textView22"
@@ -399,7 +425,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Go To The Nearest Exit"
+                                        android:text="Never walk or swim through swiftly moving water. Avoid flooded areas. Floodwaters that are above your knees are dangerous. Turn around and go back to higher ground. "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -412,12 +438,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView23"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/aaaa" />
 
                                     <TextView
                                         android:id="@+id/textView24"
@@ -426,7 +452,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Always Use An Exit Stair, Not An Elevator"
+                                        android:text="Try to stop water from entering your home by putting plugs in sinks and baths and weigh them down with a sandbag, pillowcase or a plastic bag filled with garden soil or a heavy object. Plug water inlet pipes with towels or cloths. "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -438,12 +464,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView27"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/aaaaa" />
 
                                     <TextView
                                         android:id="@+id/textView28"
@@ -452,7 +478,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Use a fire extinguisher if the fire is very small and you know how to use it safely"
+                                        android:text="Attempt to keep contact with your neighbors to make sure everyone is safe and so that you can pool (and later ration) supplies when the situation calls for it. "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -464,12 +490,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView29"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/aaaaaa" />
 
                                     <TextView
                                         android:id="@+id/textView30"
@@ -478,7 +504,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="If you are on fire – Stop, Drop and Roll"
+                                        android:text="If your car is swept into the water and submerged, do not panic. Stay calm, hold your breath, force your wait outside, and swim to the surface. "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -490,12 +516,12 @@
 
                                     <ImageView
                                         android:id="@+id/imageView25"
-                                        android:layout_width="10dp"
-                                        android:layout_height="10dp"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_marginTop="15dp"
-                                        app:srcCompat="@drawable/bullet" />
+                                        app:srcCompat="@drawable/aaaaaaa" />
 
                                     <TextView
                                         android:id="@+id/textView26"
@@ -504,10 +530,116 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="If You Get Trapped, close the door and open the windows if safe.Signal for help and phone 911. Don't panic nor jump and wait for the fire department to rescue you."
+                                        android:text="If you are stranded on something above floodwater, such as a tree or building, stay put and wait for rescue. Call for help if you are in danger."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12b"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_weight="1"
+                                    android:text="C. AFTER THE STORM"
+                                    android:textColor="#b02424"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="119dp"
+                                    tools:layout_editor_absoluteY="360dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView6b"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/a" />
+
+                                    <TextView
+                                        android:id="@+id/textView13b"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Even if the storm is clear, keep listening to weather reports and only return to evacuated buildings if you are told it is safe to do so. Beware of sharp objects and pollution in flood water.  Watch out for live electrical wires."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView7b"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/aa" />
+
+                                    <TextView
+                                        android:id="@+id/textView14b"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Assess the damage. If you have evacuated from your home and wish to turn back, be sure the structure is not visibly damaged and in danger of collapsing before entering. Do not use electrical appliances that have been wet, because there are hazards of electric shock and fire."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView9ab"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/aaaaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView16ab"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text=" Avoid water-borne diseases. Assume that any water in flooded or surrounding areas is not safe unless local authorities expressly declared it to be so. If there is no safe water supply for washing, use bottled water or disinfected water (by adding 5 drops of liquid household bleach and let sit for 30 minutes). "
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
 
                             </LinearLayout>
 

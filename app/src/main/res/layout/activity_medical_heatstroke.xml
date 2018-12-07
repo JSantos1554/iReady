@@ -213,7 +213,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:text="A. WHAT IS HEATSTROKE?"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -240,7 +240,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/race" />
+                                        app:srcCompat="@drawable/info" />
 
                                     <TextView
                                         android:id="@+id/textView13"
@@ -249,7 +249,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Remove anyone from immediate danger."
+                                        android:text="Heatstroke is a condition caused by your body overheating, usually as a result of prolonged exposure to or physical exertion in high temperatures. Heatstroke requires emergency treatment. Untreated heatstroke can quickly damage your brain, heart, kidneys and muscles. The damage worsens the longer treatment is delayed, increasing your risk of serious complications or death."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -266,7 +266,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/racee" />
+                                        app:srcCompat="@drawable/info" />
 
                                     <TextView
                                         android:id="@+id/textView14"
@@ -275,59 +275,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Activate the building fire alarm system and call 911."
-                                        android:textSize="16sp"
-                                        android:textStyle="bold" />
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginBottom="5dp"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:id="@+id/imageView8"
-                                        android:layout_width="30dp"
-                                        android:layout_height="42dp"
-                                        android:layout_marginLeft="20dp"
-                                        android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceee" />
-
-                                    <TextView
-                                        android:id="@+id/textView15"
-                                        android:layout_width="327dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginRight="8dp"
-                                        android:layout_marginTop="10dp"
-                                        android:layout_weight="1"
-                                        android:text="Confine the fire by closing all windows and doors."
-                                        android:textStyle="bold"
-                                        android:textSize="16sp" />
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginBottom="5dp"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:id="@+id/imageView9"
-                                        android:layout_width="30dp"
-                                        android:layout_height="42dp"
-                                        android:layout_marginLeft="20dp"
-                                        android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceeee" />
-
-                                    <TextView
-                                        android:id="@+id/textView16"
-                                        android:layout_width="327dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginRight="8dp"
-                                        android:layout_marginTop="10dp"
-                                        android:layout_weight="1"
-                                        android:text="Evacuate, leave the building."
+                                        android:text="Heatstroke requires emergency treatment. Untreated heatstroke can quickly damage your brain, heart, kidneys and muscles. The damage worsens the longer treatment is delayed, increasing your risk of serious complications or death."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -346,7 +294,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="B. Important reminders during a fire emergency"
+                                    android:text="B. SYMPTOMS OF HEATSTROKE:"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -384,7 +332,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Crawl If There’s Smoke"
+                                        android:text="High body temperature."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -411,7 +359,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Feel Doors Before Opening"
+                                        android:text="Altered mental state or behavior:  Confusion, agitation, slurred speech, irritability, delirium, seizures and coma"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -438,7 +386,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Go To The Nearest Exit"
+                                        android:text="Alteration in sweating. In heatstroke brought on by hot weather, your skin will feel hot and dry to the touch. However, in heatstroke brought on by strenuous exercise, your skin may feel dry or slightly moist."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -465,7 +413,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Always Use An Exit Stair, Not An Elevator"
+                                        android:text="Nausea and vomiting"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -491,7 +439,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Use a fire extinguisher if the fire is very small and you know how to use it safely"
+                                        android:text="Flushed skin."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -517,10 +465,38 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="If you are on fire – Stop, Drop and Roll"
+                                        android:text="Rapid breathing."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView25a"
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="15dp"
+                                        app:srcCompat="@drawable/bullet" />
+
+                                    <TextView
+                                        android:id="@+id/textView26a"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="40dp"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="Racing heart rate."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -540,11 +516,11 @@
                                         android:id="@+id/textView26"
                                         android:layout_width="327dp"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginBottom="40dp"
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
-                                        android:layout_marginBottom="40dp"
                                         android:layout_weight="1"
-                                        android:text="If You Get Trapped, close the door and open the windows if safe.Signal for help and phone 911. Don't panic nor jump and wait for the fire department to rescue you."
+                                        android:text="Throbbing headache"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -625,7 +601,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:text="A. In the event of a heatstoke:"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -652,7 +628,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/race" />
+                                        app:srcCompat="@drawable/a" />
 
                                     <TextView
                                         android:id="@+id/textView13a"
@@ -661,7 +637,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Remove anyone from immediate danger."
+                                        android:text="Immediately call for emergency medical help"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -678,7 +654,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/racee" />
+                                        app:srcCompat="@drawable/aa" />
 
                                     <TextView
                                         android:id="@+id/textView14a"
@@ -687,7 +663,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Activate the building fire alarm system and call 911."
+                                        android:text="Get the person into shade or indoors."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -704,7 +680,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceee" />
+                                        app:srcCompat="@drawable/aaa" />
 
                                     <TextView
                                         android:id="@+id/textView15a"
@@ -713,9 +689,9 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Confine the fire by closing all windows and doors."
-                                        android:textStyle="bold"
-                                        android:textSize="16sp" />
+                                        android:text="Remove excess clothing"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -730,7 +706,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceeee" />
+                                        app:srcCompat="@drawable/aaaa" />
 
                                     <TextView
                                         android:id="@+id/textView16a"
@@ -739,10 +715,36 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Evacuate, leave the building."
+                                        android:text="Cool the person with whatever means available — put in a cool tub of water or a cool shower, spray with a garden hose, sponge with cool water,"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imageView9aa"
+                                        android:layout_width="30dp"
+                                        android:layout_height="42dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="10dp"
+                                        app:srcCompat="@drawable/aaaaa" />
+
+                                    <TextView
+                                        android:id="@+id/textView16aa"
+                                        android:layout_width="327dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_weight="1"
+                                        android:text="fan while misting with cool water, or place ice packs or cold, wet towels on the person's head, neck, armpits and groin."
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
 
                             </LinearLayout>
 

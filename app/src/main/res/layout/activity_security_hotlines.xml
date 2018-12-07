@@ -79,8 +79,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:onClick="BtnNat_onClick">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -134,8 +134,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:onClick="BtnNationalDis_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -201,8 +201,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:onClick="BtnNationalDisNCR_onClick">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -255,8 +255,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:onClick="BtnPRC_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -315,7 +315,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="BtnBFR_onClick">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -334,7 +335,7 @@
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="24dp"
                             android:gravity="center"
-                            android:text="PHILIPPINE NATIONAL POLICE (PNP) HOTLINE PATROL"
+                            android:text="BUREAU OF FIRE PROTECTION (NCR)"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -348,7 +349,7 @@
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="8dp"
-                            android:text="117"
+                            android:text=" (02) 426-0219"
                             android:textColor="@android:color/holo_red_dark"
                             android:textSize="20sp"
                             android:textStyle="bold"

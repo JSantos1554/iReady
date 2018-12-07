@@ -214,7 +214,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:text="A. WHAT IS HEART ATTACK"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -241,7 +241,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/race" />
+                                        app:srcCompat="@drawable/info" />
 
                                     <TextView
                                         android:id="@+id/textView13"
@@ -250,85 +250,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Remove anyone from immediate danger."
-                                        android:textSize="16sp"
-                                        android:textStyle="bold" />
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginBottom="5dp"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:id="@+id/imageView7"
-                                        android:layout_width="30dp"
-                                        android:layout_height="42dp"
-                                        android:layout_marginLeft="20dp"
-                                        android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/racee" />
-
-                                    <TextView
-                                        android:id="@+id/textView14"
-                                        android:layout_width="327dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginRight="8dp"
-                                        android:layout_marginTop="10dp"
-                                        android:layout_weight="1"
-                                        android:text=" Activate the building fire alarm system and call 911."
-                                        android:textSize="16sp"
-                                        android:textStyle="bold" />
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginBottom="5dp"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:id="@+id/imageView8"
-                                        android:layout_width="30dp"
-                                        android:layout_height="42dp"
-                                        android:layout_marginLeft="20dp"
-                                        android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceee" />
-
-                                    <TextView
-                                        android:id="@+id/textView15"
-                                        android:layout_width="327dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginRight="8dp"
-                                        android:layout_marginTop="10dp"
-                                        android:layout_weight="1"
-                                        android:text="Confine the fire by closing all windows and doors."
-                                        android:textStyle="bold"
-                                        android:textSize="16sp" />
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginBottom="5dp"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:id="@+id/imageView9"
-                                        android:layout_width="30dp"
-                                        android:layout_height="42dp"
-                                        android:layout_marginLeft="20dp"
-                                        android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceeee" />
-
-                                    <TextView
-                                        android:id="@+id/textView16"
-                                        android:layout_width="327dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginRight="8dp"
-                                        android:layout_marginTop="10dp"
-                                        android:layout_weight="1"
-                                        android:text="Evacuate, leave the building."
+                                        android:text="During a heart attack, the blood supply that normally nourishes the heart with oxygen is cut off and the heart muscle begins to die. Heart attacks — also called myocardial infarctions — are very common in the philippines.There are a few cardiac conditions that can cause heart attacks. One of the most common causes is plaque buildup in the arteries (atherosclerosis) that prevents blood from getting to the heart muscle."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -347,7 +269,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="B. Important reminders during a fire emergency"
+                                    android:text="B. WARNING SIGNS AND SYMPTOMS:"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -385,7 +307,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Crawl If There’s Smoke"
+                                        android:text="Pressure, tightness, pain, or a squeezing or aching sensation in your chest or arms that may spread to your neck, jaw or back"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -412,7 +334,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Feel Doors Before Opening"
+                                        android:text="Nausea, indigestion, heartburn or abdominal pain"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -439,7 +361,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Go To The Nearest Exit"
+                                        android:text="Sweating/Cold Sweat "
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -466,7 +388,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Always Use An Exit Stair, Not An Elevator"
+                                        android:text="Lightheadedness or dizziness"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -492,7 +414,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Use a fire extinguisher if the fire is very small and you know how to use it safely"
+                                        android:text="Fatigue"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -518,7 +440,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="If you are on fire – Stop, Drop and Roll"
+                                        android:text="Trouble breathing"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -626,7 +548,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="8dp"
                                     android:layout_weight="1"
-                                    android:text="A. In the event of a fire alarm “RACE”"
+                                    android:text="A. In the event of an heart attack:"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -653,7 +575,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/race" />
+                                        app:srcCompat="@drawable/bullet" />
 
                                     <TextView
                                         android:id="@+id/textView13a"
@@ -662,7 +584,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Remove anyone from immediate danger."
+                                        android:text="Immediately call for emergency medical help"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -679,7 +601,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/racee" />
+                                        app:srcCompat="@drawable/bullet" />
 
                                     <TextView
                                         android:id="@+id/textView14a"
@@ -688,7 +610,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text=" Activate the building fire alarm system and call 911."
+                                        android:text="Keep the person calm and loosen any tight clothing"
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
@@ -705,7 +627,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceee" />
+                                        app:srcCompat="@drawable/bullet" />
 
                                     <TextView
                                         android:id="@+id/textView15a"
@@ -714,9 +636,9 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Confine the fire by closing all windows and doors."
-                                        android:textStyle="bold"
-                                        android:textSize="16sp" />
+                                        android:text="Check if the person is breathing and has a pulse. If the person isn't breathing or you don't find a pulse, only then should you begin CPR to keep blood flowing. If you haven't been trained in CPR, doctors recommend performing only chest compressions. If you have been trained in CPR, you can go on to opening the airway and rescue breathing"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -731,7 +653,7 @@
                                         android:layout_height="42dp"
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="10dp"
-                                        app:srcCompat="@drawable/raceeee" />
+                                        app:srcCompat="@drawable/bullet" />
 
                                     <TextView
                                         android:id="@+id/textView16a"
@@ -740,7 +662,7 @@
                                         android:layout_marginRight="8dp"
                                         android:layout_marginTop="10dp"
                                         android:layout_weight="1"
-                                        android:text="Evacuate, leave the building."
+                                        android:text="Take prescription medicines if  any."
                                         android:textSize="16sp"
                                         android:textStyle="bold" />
                                 </LinearLayout>
