@@ -9,4 +9,21 @@
     <string name="title_fire_hotlines">Emergency Hotlines</string>
     <string name="title_fire_guidelines">Fire Emergency Guidelines</string>
     <string name="title_fire_firstaid">Fire First Aid</string>
+    <string name="title_storm_hotlines">Emergency Hotlines</string>
+    <string name="title_storm_guidelines">Storm Emergency Guidelines</string>
+    <string name="title_storm_kit">Storm Survival Kit</string>
+    <string name="title_medical_firstaid">Storm First Aid Kit</string>
+    <string name="title_medical_hotlines">Emergency Hotlines</string>
+    <string name="title_medical_heatstroke">HeatStroke</string>
+    <string name="title_medical_heartattack">Heart Attack</string>
+    <string name="title_medical_dengue">Dengue</string>
+    <string name="title_medical_foodpoison">Food Poisoning</string>
+    <string name="title_security_hotlines">Emergency Hotlines</string>
+    <string name="title_security_guidelines">Emergency Hotlines</string>
+    <string name="title_security_alarm">Security Alarm</string>
+
+
+
+
+
 </resources>

@@ -68,19 +68,32 @@
         <activity
             android:name=".FireFirstAid"
             android:label="@string/title_fire_firstaid" />
-        <activity android:name=".StormHotlines" />
-        <activity android:name=".StormGuidelines" />
-        <activity android:name=".StormFirstAid" />
-        <activity android:name=".MedicalFirstaid" />
-        <activity android:name=".MedicalHotlines" />
-        <activity android:name=".MedicalHeatstroke" />
-        <activity android:name=".MedicalHeartattack" />
-        <activity android:name=".MedicalDengue" />
-        <activity android:name=".MedicalFoodpoison" />
-        <activity android:name=".SecurityHotlines" />
-        <activity android:name=".SecurityGuidelines" />
-        <activity android:name=".SecurityEmergencyAlarm" />
-        <activity android:name=".SecurityEmergencyAlarmp2"></activity>
+        <activity android:name=".StormHotlines"
+            android:label="@string/title_storm_hotlines"/>
+        <activity android:name=".StormGuidelines"
+            android:label="@string/title_storm_guidelines"/>
+        <activity android:name=".StormFirstAid"
+            android:label="@string/title_storm_kit"/>
+        <activity android:name=".MedicalFirstaid"
+            android:label="@string/title_medical_firstaid"/>/>
+        <activity android:name=".MedicalHotlines"
+            android:label="@string/title_medical_hotlines"/>
+        <activity android:name=".MedicalHeatstroke"
+            android:label="@string/title_medical_heatstroke"/>
+        <activity android:name=".MedicalHeartattack"
+            android:label="@string/title_medical_heartattack"/>
+        <activity android:name=".MedicalDengue"
+            android:label="@string/title_medical_dengue"/>
+        <activity android:name=".MedicalFoodpoison"
+            android:label="@string/title_medical_foodpoison"/>
+        <activity android:name=".SecurityHotlines"
+            android:label="@string/title_security_hotlines"/>
+        <activity android:name=".SecurityGuidelines"
+            android:label="@string/title_security_guidelines"/>
+        <activity android:name=".SecurityEmergencyAlarm"
+            android:label="@string/title_security_alarm"/>
+        <activity android:name=".SecurityEmergencyAlarmp2"
+            android:label="@string/title_security_alarm"></activity>
     </application>
 
 </manifest>

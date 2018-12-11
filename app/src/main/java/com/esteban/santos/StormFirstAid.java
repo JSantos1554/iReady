@@ -14,7 +14,6 @@ public class StormFirstAid extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_storm_first_aid);
-        setContentView(R.layout.activity_storm_guidelines);
         VideoView videoView = findViewById(R.id.videoView2);
         String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.survivalkit;
         Uri uri = Uri.parse(videoPath);
