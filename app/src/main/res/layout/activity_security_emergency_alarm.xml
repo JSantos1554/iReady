@@ -109,7 +109,7 @@
             android:layout_height="match_parent"
             android:background="#ff7c80"
             android:onClick="process"
-            android:text="BACK"
+            android:text="NO"
             android:textSize="24sp"
             android:textStyle="bold" />
 

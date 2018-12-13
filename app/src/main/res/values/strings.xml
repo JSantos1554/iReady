@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">iReady</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_menu">Main Menu</string>
+    <string name="title_activity_menu">iReady Emergenccy</string>
     <string name="title_fire_menu">Fire Emergency</string>
     <string name="title_storm_menu">Storm Emergency</string>
     <string name="title_medical_menu">Medical Emergency</string>
@@ -19,8 +19,8 @@
     <string name="title_medical_dengue">Dengue</string>
     <string name="title_medical_foodpoison">Food Poisoning</string>
     <string name="title_security_hotlines">Emergency Hotlines</string>
-    <string name="title_security_guidelines">Emergency Hotlines</string>
-    <string name="title_security_alarm">Security Alarm</string>
+    <string name="title_security_guidelines">Security Emergency Guidellines</string>
+    <string name="title_security_alarm">Emergency Button</string>
 
 
 

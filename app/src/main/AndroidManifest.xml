@@ -75,7 +75,7 @@
         <activity android:name=".StormFirstAid"
             android:label="@string/title_storm_kit"/>
         <activity android:name=".MedicalFirstaid"
-            android:label="@string/title_medical_firstaid"/>/>
+            android:label="@string/title_medical_firstaid"/>
         <activity android:name=".MedicalHotlines"
             android:label="@string/title_medical_hotlines"/>
         <activity android:name=".MedicalHeatstroke"

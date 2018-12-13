@@ -146,6 +146,7 @@
                                 android:layout_marginBottom="8dp"
                                 android:layout_marginEnd="8dp"
                                 android:layout_marginStart="8dp"
+                                android:layout_marginTop="8dp"
                                 android:gravity="center"
                                 android:text="PNP INFOGRAPHICS"
                                 android:textSize="20sp"
@@ -157,13 +158,16 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                style="@style/Border">
 
                                 <TextView
                                     android:id="@+id/textView12"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
                                     android:layout_marginLeft="8dp"
+                                    android:layout_marginTop="8dp"
                                     android:layout_weight="1"
                                     android:text="A. AKYAT BAHAY PREVENTION"
                                     android:textColor="#b02424"
@@ -177,7 +181,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            style="@style/Border">
 
                             <android.support.constraint.ConstraintLayout
                                 android:layout_width="match_parent"
@@ -185,177 +190,29 @@
 
                                 <ImageView
                                     android:id="@+id/imageView14"
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="380dp"
                                     android:layout_height="435dp"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent"
                                     app:srcCompat="@drawable/infoakyatbahay" />
                             </android.support.constraint.ConstraintLayout>
                         </LinearLayout>
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:id="@+id/textView12a"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="8dp"
-                                    android:layout_weight="1"
-                                    android:text="B. RAPE PREVENTION"
-                                    android:textColor="#b02424"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold"
-                                    tools:layout_editor_absoluteX="119dp"
-                                    tools:layout_editor_absoluteY="360dp" />
-
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                                <android.support.constraint.ConstraintLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content">
-
-                                    <ImageView
-                                        android:id="@+id/imageView14a"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="435dp"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/inforape" />
-                                </android.support.constraint.ConstraintLayout>
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:id="@+id/textView12b"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="8dp"
-                                    android:layout_weight="1"
-                                    android:text="C. SALISI GANG PREVENTION"
-                                    android:textColor="#b02424"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold"
-                                    tools:layout_editor_absoluteX="119dp"
-                                    tools:layout_editor_absoluteY="360dp" />
-
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                                <android.support.constraint.ConstraintLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content">
-
-                                    <ImageView
-                                        android:id="@+id/imageView14b"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="435dp"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/infosalisigang" />
-                                </android.support.constraint.ConstraintLayout>
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:id="@+id/textView1c"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="8dp"
-                                    android:layout_weight="1"
-                                    android:text="D. KIDNAPING PREVENTION"
-                                    android:textColor="#b02424"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold"
-                                    tools:layout_editor_absoluteX="119dp"
-                                    tools:layout_editor_absoluteY="360dp" />
-
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                                <android.support.constraint.ConstraintLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content">
-
-                                    <ImageView
-                                        android:id="@+id/imageView14c"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="435dp"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/infokidnapping" />
-                                </android.support.constraint.ConstraintLayout>
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:id="@+id/textView12d"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="8dp"
-                                    android:layout_weight="1"
-                                    android:text="E. CHECKPOINTS: KNOW YOUR RIGHTS "
-                                    android:textColor="#b02424"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold"
-                                    tools:layout_editor_absoluteX="119dp"
-                                    tools:layout_editor_absoluteY="360dp" />
-
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                                <android.support.constraint.ConstraintLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content">
-
-                                    <ImageView
-                                        android:id="@+id/imageView14d"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="435dp"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/infoknowyourrights" />
-                                </android.support.constraint.ConstraintLayout>
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                style="@style/Border">
 
                                 <TextView
                                     android:id="@+id/textView12e"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
                                     android:layout_marginLeft="8dp"
+                                    android:layout_marginTop="8dp"
                                     android:layout_weight="1"
-                                    android:text="F. SCAM PREVENTION"
+                                    android:text="B. SCAM PREVENTION"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
@@ -367,7 +224,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                style="@style/Border">
 
                                 <android.support.constraint.ConstraintLayout
                                     android:layout_width="match_parent"
@@ -375,8 +233,8 @@
 
                                     <ImageView
                                         android:id="@+id/imageView14e"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="435dp"
+                                        android:layout_width="380dp"
+                                        android:layout_height="241dp"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/infoscam" />
@@ -385,27 +243,31 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                style="@style/Border">
 
                                 <TextView
                                     android:id="@+id/textView12f"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
                                     android:layout_marginLeft="8dp"
+                                    android:layout_marginTop="8dp"
                                     android:layout_weight="1"
-                                    android:text="G. ATM SAFETY TIPS"
+                                    android:text="C. ATM SAFETY TIPS"
                                     android:textColor="#b02424"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
                                     tools:layout_editor_absoluteX="119dp"
-                                    tools:layout_editor_absoluteY="360dp" />
+                                    tools:layout_editor_absoluteY="360dp"  />
 
                             </LinearLayout>
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                style="@style/Border">
 
                                 <android.support.constraint.ConstraintLayout
                                     android:layout_width="match_parent"
@@ -413,8 +275,8 @@
 
                                     <ImageView
                                         android:id="@+id/imageView14f"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="435dp"
+                                        android:layout_width="380dp"
+                                        android:layout_height="348dp"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/infoatm" />
