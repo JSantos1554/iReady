@@ -190,7 +190,7 @@
 
                                 <ImageView
                                     android:id="@+id/imageView14"
-                                    android:layout_width="380dp"
+                                    android:layout_width="0dp"
                                     android:layout_height="435dp"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent"
@@ -233,7 +233,7 @@
 
                                     <ImageView
                                         android:id="@+id/imageView14e"
-                                        android:layout_width="380dp"
+                                        android:layout_width="0dp"
                                         android:layout_height="241dp"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
@@ -275,7 +275,7 @@
 
                                     <ImageView
                                         android:id="@+id/imageView14f"
-                                        android:layout_width="380dp"
+                                        android:layout_width="0dp"
                                         android:layout_height="348dp"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
